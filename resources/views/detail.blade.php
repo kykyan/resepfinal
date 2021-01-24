@@ -28,23 +28,6 @@
             <h2 class="body mb-4">{!! $recipe->how_to_make !!}</h2>
             <!-- </div> -->
         </div>
-        <hr>
-        <div class="comment mb-3">
-            <h2 class="font-weight-bold mb-3"><i class="fas fa-comment pr-2"></i>Komentar</h2>
-            <!-- the comment -->
-            <div class="the-comment mb-4">
-                <h2 class="font-weight-normal">Aditya Firmansyah</h2>
-                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum placeat repellat fugiat
-                    voluptates animi ea molestias dolorem dolor possimus error corporis voluptas nulla ipsa aperiam,
-                    vel magni nisi praesentium dolore.</h3>
-            </div>
-            <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Comment" aria-label="Comment" aria-describedby="button-addon2">
-                <div class="input-group-append">
-                    <button class="btn btn-primary" type="button" id="button-addon2"><i class="fas fa-paper-plane pr-2"></i>Send</button>
-                </div>
-                </div>
-        </div>
     </div>
 </section>
 <!-- content -->

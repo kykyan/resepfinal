@@ -53,7 +53,7 @@
         <div class="row title">
             <div class="col-md-6 col-lg-12">
                 <h1>cari resep yang akan anda buat</h1>
-                <p>Masak makan dengan resep yang pas akan membuat makanan anda terasa nikmat dan puas</p>
+                <p>Masak dengan resep yang pas akan membuat makanan anda terasa nikmat dan puas</p>
             </div>
         </div>
         <div class="row">
@@ -78,5 +78,7 @@
     </div>
 </section>
 <!-- akhir card resep -->
+
+{{ $recipes->links() }}
 
 @endsection
