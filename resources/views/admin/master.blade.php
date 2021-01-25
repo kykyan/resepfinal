@@ -108,7 +108,7 @@
         <div class="container-fluid">
           <div class="card card-primary card-outline">
             <div class="card-header">
-              <h3 class="card-title">Icons</h3>
+              <h3 class="card-title">Admin Site</h3>
             </div> <!-- /.card-body -->
             <div class="card-body">
               @yield('content')

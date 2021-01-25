@@ -55,11 +55,28 @@
                                     <button class="btn btn-link btn-block text-left collapsed" type="button"
                                         data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
                                         aria-controls="collapseTwo">
-                                        Bagaimana cara memberikan komentar ?
+                                        Bagaimana cara membuat akun ?
                                     </button>
                                 </h2>
                             </div>
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Untuk membuat akun, anda hanya perlu mengakses halaman login, kemudian klik tombol Sign Up dan masukkan data diri anda.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        Bagaimana cara memberikan komentar ?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingTwo"
                                 data-parent="#accordionExample">
                                 <div class="card-body">
                                     untuk menulis komentar anda terlebih dahulu harus login, kemudian klik detail dari resep kemudian dibagian bawah terdapat bagian komentar, tulis komentar dan klik send.

@@ -23,7 +23,10 @@ class RecipeController extends Controller
 
     public function index()
     {
-        
+        $recipes = Recipe::where('is_publish', 1)
+        ->paginate(15);
+
+        return view('index', compact('recipes'));
     }
 
     /**
@@ -164,7 +167,7 @@ class RecipeController extends Controller
  
 		$recipes = DB::table('recipes')
             ->where('recipe_name','like',"%".$search."%")
-            ->get();
+            ->paginate(15);
  
         // dd($recipes);
 		return view('index',['recipes' => $recipes]);

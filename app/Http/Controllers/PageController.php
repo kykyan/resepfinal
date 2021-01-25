@@ -9,14 +9,6 @@ use Auth;
 
 class PageController extends Controller
 {
-    public function home()
-    {
-        $recipes = Recipe::where('is_publish', 1)
-        ->paginate(15);
-
-        return view('index', compact('recipes'));
-    }
-
     public function about()
     {
         return view('about');

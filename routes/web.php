@@ -13,13 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'PageController@home')->name('home');
 Route::get('/about', 'PageController@about')->name('about');
 Route::get('/faq', 'PageController@faq')->name('faq');
 Route::get('/login', 'PageController@login')->name('loginview');
 Route::get('/register', 'PageController@register')->name('registerview');
 Route::get('/dashboard', 'PageController@dashboard')->name('dashboard');
 
+Route::get('/', 'RecipeController@index')->name('home');
 Route::get('/tulisresep', 'RecipeController@create')->name('tulisresep');
 Route::get('/recipe/{recipe}/edit', 'RecipeController@edit')->name('recipe.edit');
 Route::delete('/recipe/{recipe}', "RecipeController@destroy")->name('recipe.delete');
