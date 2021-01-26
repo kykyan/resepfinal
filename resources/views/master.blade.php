@@ -8,7 +8,7 @@
         content="Masakin merupakan website penyedia resep makanan, dimana orang-orang dapat berbagi resep sesuka mereka">
     <meta name="keywords" content="resep, resep makanan, resep traditional, resep nusantara, desert, kue">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Masakin</title>
+    <title>ResepKita</title>
     <!-- bootstrap -->
     <link rel="stylesheet" href="{{ asset ('css/bootstrap.min.css') }}">
     <!-- style Custom -->

@@ -13,25 +13,6 @@
                 <div class="col-12 col-md-8">
                     <div class="accordion" id="accordionExample">
                         <div class="card shadow-lg">
-                            <!-- <div class="card">
-                                <div class="card-header" id="headingThree">
-                                    <h2 class="mb-0">
-                                        <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                            data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
-                                            aria-controls="collapseThree">
-                                            apakah pembayaran sudah termasuk akomodasi penunjang seperti makan dan lain-lain
-                                            ?
-                                        </button>
-                                    </h2>
-                                </div>
-                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                    data-parent="#accordionExample">
-                                    <div class="card-body">
-                                        pembayaran yang anda lakukan sudah termasuk akomodari penunjang seperti transport,
-                                        makan, hotel dan tempat wisata.
-                                    </div>
-                                </div>
-                            </div> -->
                             <div class="card-header" id="headingOne">
                                 <h2 class="mb-0">
                                     <button class="btn btn-link btn-block text-left" type="button"
@@ -41,11 +22,10 @@
                                     </button>
                                 </h2>
                             </div>
-
                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                                 data-parent="#accordionExample">
                                 <div class="card-body">
-                                    untuk menulis resep anda harus terlebih dahulu login menggunakan akun yang telah terdaftar
+                                    Untuk menulis resep anda harus terlebih dahulu <a href=/login>Login</a> menggunakan akun yang telah terdaftar
                                 </div>
                             </div>
                         </div>
@@ -62,24 +42,41 @@
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                                 data-parent="#accordionExample">
                                 <div class="card-body">
-                                    Untuk membuat akun, anda hanya perlu mengakses halaman login, kemudian klik tombol Sign Up dan masukkan data diri anda.
+                                    Untuk membuat akun, anda hanya perlu mengakses halaman login, kemudian klik tombol <a href=/register>Sign Up</a> dan masukkan data diri anda.
                                 </div>
                             </div>
                         </div>
                         <div class="card">
-                            <div class="card-header" id="headingTwo">
+                            <div class="card-header" id="headingThree">
                                 <h2 class="mb-0">
                                     <button class="btn btn-link btn-block text-left collapsed" type="button"
                                         data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseTwo">
-                                        Bagaimana cara memberikan komentar ?
+                                        aria-controls="collapseThree">
+                                        Bagaimana cara mengubah Resep yang sudah kita buat ?
                                     </button>
                                 </h2>
                             </div>
-                            <div id="collapseThree" class="collapse" aria-labelledby="headingTwo"
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                                 data-parent="#accordionExample">
                                 <div class="card-body">
-                                    untuk menulis komentar anda terlebih dahulu harus login, kemudian klik detail dari resep kemudian dibagian bawah terdapat bagian komentar, tulis komentar dan klik send.
+                                    Untuk mengubah resep yang sudah anda buat, anda harus melakukan Login terlebih dahulu. Kemudian anda dapat mengakses ke halaman <a href='{{ route('dashboard') }}'>Dashboard</a> dan anda dapat memilih resep yang akan diubah kemudian klik Edit Resep. 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        Bagaimana cara menghapus Resep yang sudah kita buat ?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Untuk menghapus resep yang sudah anda buat, anda harus melakukan Login terlebih dahulu. Kemudian anda dapat mengakses ke halaman <a href='{{ route('dashboard') }}'>Dashboard</a> dan anda dapat memilih resep yang akan dihapus kemudian klik Edit Resep dan pada bagian bawah anda dapat memilih Delete Recipe 
                                 </div>
                             </div>
                         </div>

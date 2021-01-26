@@ -21,7 +21,7 @@ Route::get('/dashboard', 'PageController@dashboard')->name('dashboard');
 
 Route::get('/', 'RecipeController@index')->name('home');
 Route::get('/tulisresep', 'RecipeController@create')->name('tulisresep');
-Route::get('/recipe/{recipe}/edit', 'RecipeController@edit')->name('recipe.edit');
+Route::get('/recipe/{recipe}/edit', 'RecipeController@edit')->name('recipe.edit')->middleware('auth');
 Route::delete('/recipe/{recipe}', "RecipeController@destroy")->name('recipe.delete');
 Route::patch('/recipe/{recipe}', 'RecipeController@update')->name('recipe.update');
 Route::post('/', 'RecipeController@store')->name('recipe.store');
